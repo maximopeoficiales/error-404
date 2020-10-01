@@ -1,0 +1,16 @@
+{
+  "name": "404-not-found-master",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "postcss  tailwind.css  -o dist/css/build.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
