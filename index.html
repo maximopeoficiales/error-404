@@ -5,48 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/css/build.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
     <title>Error 404</title>
     <style>
       body {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Space Mono", monospace;
       }
     </style>
   </head>
-  <body>
-    <section class="container p-2 mx-auto">
+  <body class="container px-2 py-4 mx-auto">
+    <header class="">
       <nav class="p-4 text-sm font-bold">404 NOT FOUND</nav>
-      <main class="my-4git a">
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <picture class="flex justify-center">
-            <img
-              src="dist/images/Scarecrow.png"
-              alt="Error"
-              class="w-40 h-40 md:h-auto md:w-full md:p-6"
-            />
-          </picture>
-          <article class="justify-center p-4">
-            <h1 class="text-4xl font-bold tracking-widest xl:text-6xl">
-              I have bad news for you
-            </h1>
-            <p class="pr-10 mt-5 mb-8 text-sm md:pr-32 xl:text-xl">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In enim
-              corporis doloribus voluptatibus ullam ut aspernatur eos voluptas
-              error eum?
-            </p>
-            <a
-              href="#"
-              class="inline-block px-5 py-4 my-4 text-xs font-semibold text-white bg-black rounded-lg lg:text-lg"
-            >
-              Back to HomePage
-            </a>
-          </article>
-        </div>
-      </main>
-    </section>
-    <footer class="absolute bottom-0 w-full my-4 text-xs text-center">
+    </header>
+    <main class="">
+      <div class="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2">
+        <picture class="flex items-center justify-center p-4">
+          <img
+            src="dist/images/Scarecrow.png"
+            alt="Error"
+            class="w-64 md:h-auto md:w-full"
+          />
+        </picture>
+        <article class="justify-center p-4">
+          <h1 class="text-3xl font-bold xl:text-6xl">
+            I have bad news for you
+          </h1>
+          <p class="pr-10 mt-5 mb-8 text-sm sm:pr-20 xl:text-xl">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In enim
+            corporis doloribus voluptatibus ullam ut
+          </p>
+          <a
+            href="#"
+            class="inline-block px-6 py-4 my-4 text-xs font-bold text-white bg-black rounded-lg lg:text-lg"
+          >
+            Back to HomePage
+          </a>
+        </article>
+      </div>
+    </main>
+    <footer class="absolute bottom-0 left-0 w-full h-10 text-xs text-center">
       <p class="font-semibold">@maximopeoficiales</p>
     </footer>
   </body>
